@@ -1,0 +1,22 @@
+.h1 {
+	text-align:center;
+	background-color: greenyellow ;
+	width: 1896px;
+	height: 50px;
+}
+.menus {
+	display: flex;
+}
+.menu {
+	background-color: greenyellow ;
+	width: 500px;
+    height: 50px;
+    text-align: center;
+}
+form {
+    text-align:center
+}
+.basement {
+	text-align: center;
+	background-color: greenyellow;
+}

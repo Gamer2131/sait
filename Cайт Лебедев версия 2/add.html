@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add.css">
+    <title>Главная страница</title>
+</head>
+<body>
+    <div class="h1">
+        <div class="h2"> <h1>Поиск животных</h1> </div> 
+    </div>
+    <div class="menus">
+        <div class="png"><a href="index.html"> <img src="logo.png" width="48"></a></div>
+        <div class="menu">Поиск</div>
+		<div class="menu"><a href="add.html">Добавить</a></div>
+		<div class="menu"><a href="reviews.html">Отзывы</a></div>
+		<div class="menu"><a href="login.html">личный кабинет</a></div>
+        <div class="menu"><a href="register.html">Регистрация</a></div>
+    </div>
+      <form action="addScript.php" method="post" enctype="multipart/form-data">
+    <label >Заголовок<input type="text" name="title"></label>
+    <br><label >Описание<input type="text" name="description"></label></br>
+    <input type="button" id="addFoto" value="Добавить фото">
+    <div id="addBtn"></div>
+    <input type="submit" value="Отправить" />
+  </form>
+  <div class="basement">
+    <div class="basement1">Email: etogg1121@yandex.ru</div>
+    <div class="basement2">Находясь на сайте вы подтверждаете согласие на обработку персональных данных</div>
+    <div class="basement2">Телефон “8 (800)123-45-67”</div>
+  </div>
+  </body>
+  </html>
